@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Nikhil',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Soni',
   },
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '27 Years',
+    title: 'Education : ',
+    description: 'B.Tech in CSE',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Indian',
   },
 
   {
@@ -91,57 +91,57 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Lucknow, India',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+91 9140812011',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'nikhilsoni7309@gmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'WhatsApp : ',
+    description: '9140812011',
   },
 
   {
     id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: 'Languages : ',
+    description: 'English, Hindi',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '2+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '11+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '15+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '200+',
+    title: 'Leetcode <br /> Questions',
   },
 ];
 
@@ -427,7 +427,7 @@ export const themes = [
   {
     id: 2,
     img: Theme2,
-    color: 'hsl(4, 93%, 54%)',
+    color: 'hsl(4, 90%, 58%)',
   },
 
   {
