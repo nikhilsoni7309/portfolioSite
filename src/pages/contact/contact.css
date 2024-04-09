@@ -66,6 +66,10 @@
     column-gap: 30px;
 }
 
+.form__input-div {
+    margin-bottom: 30px;
+}
+
 .form__control {
     border: 1px solid var(--container-color);
     background-color: var(--container-color);

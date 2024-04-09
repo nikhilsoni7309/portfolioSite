@@ -42,6 +42,7 @@
 }
 
 .home__description {
+    font-weight: var(--weight-600);
     line-height: 2.125;
     margin-block: 16px 32px;
 }
