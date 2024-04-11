@@ -2,7 +2,7 @@ import React from 'react'
 import Info from '../../components/Info'
 import Stats from '../../components/Stats'
 import { FaDownload } from "react-icons/fa"
-import CV from "../../assets/steve-Cv.pdf"
+import CV from "../../assets/NikhilSoni-CV.pdf"
 import Skills from '../../components/Skills'
 import { resume } from '../../data'
 import ResumeItem from '../../components/ResumeItem'
@@ -23,7 +23,7 @@ const About = () => {
               <Info />
             </ul>
 
-            <a href={CV} download='' className="button">
+            <a href={CV} download className="button">
               Download CV 
               <span className="button__icon">
                 <FaDownload />
@@ -47,9 +47,9 @@ const About = () => {
         </div>
       </section>
 
-      <div className="separator"></div>
+      {/* <div className="separator"></div> */}
 
-      <section className="resume">
+      {/* <section className="resume">
         <h3 className="section__subtitle subtitle__center">
           Experience & Education
         </h3>
@@ -71,7 +71,7 @@ const About = () => {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }

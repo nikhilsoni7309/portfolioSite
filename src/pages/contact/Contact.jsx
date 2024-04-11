@@ -7,6 +7,16 @@ import {
   FaTwitter,
   FaYoutube,
   FaDribbble,
+  FaInstagram,
+  FaLinkedin,
+  FaLinkedinIn,
+  FaStaylinked,
+  FaGithub,
+  FaGithubAlt,
+  FaGithubSquare,
+  FaPhone,
+  FaMailBulk,
+  FaMailchimp,
 } from 'react-icons/fa';
 
 import { FiSend } from 'react-icons/fi';
@@ -51,17 +61,14 @@ const Contact = () => {
           </div>
 
           <div className="contact__socials">
-            <a href="https://facebook.com" className="contact__social-link">
-              <FaFacebookF />
+            <a href="https://github.com/nikhilsoni7309" className="contact__social-link">
+              <FaGithub />
             </a>
-            <a href="https://twitter.com" className="contact__social-link">
-              <FaTwitter />
+            <a href="https://www.linkedin.com/in/nikhil-soni-864b30231/" className="contact__social-link">
+              <FaLinkedin />
             </a>
-            <a href="https://youtube.com" className="contact__social-link">
-              <FaYoutube />
-            </a>
-            <a href="https://dribbble.com" className="contact__social-link">
-              <FaDribbble />
+            <a href="https://www.instagram.com/nikhilll4596/?igsh=MWMzMWs2bDU5enV4aw%3D%3D" className="contact__social-link">
+              <FaInstagram />
             </a>
           </div>
         </div>
