@@ -87,6 +87,7 @@
 .modal__item {
     display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: 8px;
 }
 
@@ -98,6 +99,10 @@
 .item__details {
     color: var(--title-color);
     font-size: var(--small-font-size);
+}
+
+.item__title {
+    font-weight: var(--weight-600);
 }
 
 .item__details {

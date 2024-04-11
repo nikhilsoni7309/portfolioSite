@@ -9,12 +9,12 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work1 from './assets/quizzical-img.png';
+import Work2 from './assets/disneyplus-img.png';
+import Work3 from './assets/tenzies-img.png';
+import Work4 from './assets/memeGenerator-img.png';
+import Work5 from './assets/portfolio-img.png';
+import Work6 from './assets/rockpaperscissors-img.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -255,27 +255,15 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Quizzical',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiExternalLink />,
+        title: <a href="https://quizzical-pro.netlify.app" target="_blank">Preview</a>,
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: <a href="https://github.com/nikhilsoni7309/quizzical" target="_blank">Code</a>,
       },
     ],
   },
@@ -283,27 +271,15 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Disney Plus',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiExternalLink />,
+        title: <a href="https://disneyplus-clone-6f5aa.web.app" target="_blank">Preview</a>,
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: <a href="https://github.com/nikhilsoni7309/disneyPlus" target="_blank">Code</a>,
       },
     ],
   },
@@ -311,27 +287,15 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Tenzies',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiExternalLink />,
+        title: <a href="https://tenzies-pro.netlify.app" target="_blank">Preview</a>,
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: <a href="https://github.com/nikhilsoni7309/tenziesGame" target="_blank">Code</a>,
       },
     ],
   },
@@ -339,27 +303,15 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Meme Generator',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiExternalLink />,
+        title: <a href="https://memegenerator-pro.netlify.app" target="_blank">Preview</a>,
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: <a href="https://github.com/nikhilsoni7309/memeGenerator" target="_blank">Code</a>,
       },
     ],
   },
@@ -367,23 +319,15 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Sample Portfolio',
     details: [
       {
-        title: 'Project : ',
-        desc: 'Website',
+        icon: <FiExternalLink />,
+        title: <a href="https://sampleportfolio-pro.netlify.app" target="_blank">Preview</a>,
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
-      },
-      {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        icon: <FaCode />,
+        title: <a href="https://github.com/nikhilsoni7309/sample-portfolio" target="_blank">Code</a>,
       },
     ],
   },
@@ -391,27 +335,15 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Rock Paper Scissors',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiExternalLink />,
+        title: <a href="https://rockpaperscissors-pro.netlify.app" target="_blank">Preview</a>,
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        title: <a href="https://github.com/nikhilsoni7309/rock-paper-scissors" target="_blank">Code</a>,
       },
     ],
   },
